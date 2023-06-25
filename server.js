@@ -29,3 +29,12 @@ fs.writeFile("URL.txt",url,(err)=>{
 });
  })
 
+ .catch((error) =>{
+    if(error.isTtyError)
+    {
+        
+    }
+    else{
+
+    }
+ });
